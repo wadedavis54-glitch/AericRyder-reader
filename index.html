@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#141210" />
+    <meta name="description" content="Day Zero. Pure cultivation LitRPG. Read offline." />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Aeric Ryder" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>Aeric Ryder</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icons/icon-192.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="top">
+        <a class="brand" href="#/">Aeric Ryder</a>
+        <nav id="chapter-nav" class="chapter-nav" aria-label="Site"></nav>
+      </header>
+
+      <main id="content" class="content">
+        <section class="home">
+          <p class="kicker">LitRPG · Cultivation</p>
+          <h1>Aeric Ryder</h1>
+          <p class="lede">Day Zero. Read in bed. Don’t trust the templates.</p>
+          <ul id="home-list" class="home-list"></ul>
+        </section>
+      </main>
+
+      <footer class="bottom" id="pager" hidden>
+        <a id="prev" href="#">← Prev</a>
+        <a id="toc" href="#/">Contents</a>
+        <a id="next" href="#">Next →</a>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
